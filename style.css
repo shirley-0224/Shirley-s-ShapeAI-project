@@ -1,0 +1,120 @@
+*{
+    background-color: rgb(228, 242, 252);
+}
+body{
+    font-family: 'Uchen', serif;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+}
+.left div{
+    text-align: center;
+    font-size: 80%;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 14px;
+    
+}
+.mid{
+    /* border: 2px solid green; */
+}
+.right{
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    
+}
+.right a{
+    color: rgb(95, 191, 255);
+    text-decoration-color: rgb(95, 191, 255);
+    padding: 15px;
+    font-family: 'Uchen', serif;
+}
+.right a:hover{
+    background-color: rgb(222, 237, 247);
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 0px auto;
+    box-shadow: 3px 3px 3px rgb(166, 220, 255);
+}
+.header{
+    display: block;
+    
+}
+.left img{
+    display: inline-block;
+    width: 60px;
+    padding: 5px;
+    position: relative;
+    
+}
+.navbar{
+    border-radius: 14px;
+    display: inline-block;
+}
+.navbar li{
+    border-radius: 14px;
+    display: inline-block;
+    font-size: 12px;
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 18px 24px;
+}
+.navbar li a:hover{
+    background-color: rgb(217, 237, 250);
+    color: rgb(75, 75, 75);
+}
+.container{
+    /* border: 2px solid black; */
+    margin: 100px 300px;
+    width: 600px 600px;
+    padding: 15px;
+    border-radius: 12px;
+}
+ .container img{
+    position: absolute;
+    width: 30%;
+    right: 900px;
+
+}
+ h1{
+    font-family: 'Uchen', serif;
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Lobster', cursive; */
+/* font-family: 'Merienda', cursive; */
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 500px;
+    top: 250px;
+    color: rgb(7, 36, 90);
+}
+p{
+    font-family: 'Prata', serif;
+    font-size:13px ;
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: 450px;
+    
+
+} 
+.btn{
+    position: absolute;
+    top: 570px;
+    right: 650px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(116, 198, 253);
+    color: rgb(249, 249, 253);
+}
+.btn:hover{
+    background-color: rgb(129, 203, 252);
+}
